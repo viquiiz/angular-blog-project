@@ -1,0 +1,6 @@
+.container-header-bar > a{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 15px 0 15px 0;
+}

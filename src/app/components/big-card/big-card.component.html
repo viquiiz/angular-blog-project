@@ -1,0 +1,13 @@
+<div class="container-big-card">
+    <h1> {{ nasaImgObj.title }} | Picture of the Day:</h1>
+    <div class="big-card-pic">
+        <a [routerLink]="['content', nasaImgObj.date]"><img src="{{ nasaImgObj.url }}" alt="{{ nasaImgObj.title }}" /></a>
+    </div>
+    <div class="big-card-title">
+        <h1><a [routerLink]="['content', nasaImgObj.date]">{{ nasaImgObj.title }}</a></h1>
+        <h3>{{ nasaImgObj.copyright }}</h3>
+    </div>
+    <div class="big-card-description">
+        <p><a [routerLink]="['content', nasaImgObj.date]">{{ nasaImgObj.explanation }}</a></p>
+    </div>
+</div>

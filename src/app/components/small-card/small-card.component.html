@@ -1,0 +1,15 @@
+<div class="container-small-card">
+    <h1>{{ nasaImgObj.date }}</h1>
+    <div class="small-card-content">
+        <div class="small-card-pic">
+            <a [routerLink]="['content', nasaImgObj.date]"><img src={{ nasaImgObj.url }} alt="{{ nasaImgObj.title }}" /></a>
+        </div>
+        <div class="small-card-title">
+            <h1><a [routerLink]="['content', nasaImgObj.date]">{{ nasaImgObj.title }}</a></h1>
+            <h3>{{ nasaImgObj.copyright }}</h3>
+        </div>
+    </div>  
+    <div class="small-card-separator">
+        <hr/>
+    </div>
+</div>

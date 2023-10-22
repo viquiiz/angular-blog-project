@@ -1,0 +1,18 @@
+.container-articles {
+    margin: 15px 0 0 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-home-page{
+    max-width: 1080px;
+    height: auto;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}

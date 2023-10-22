@@ -1,0 +1,10 @@
+.container-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-pic > img {
+    height: 40rem;
+}
